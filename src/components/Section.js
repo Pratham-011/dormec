@@ -5,7 +5,7 @@ import React from 'react'
 function Section() {
   return (
     <div>
-         {/* <section id="hero">
+         <section id="hero">
             <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
                 <div class="carousel-inner" role="listbox"> 
@@ -49,7 +49,7 @@ function Section() {
                     <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
                 </a>
             </div>
-        </section> */}
+        </section>
        <main id="main"> 
             <section id="about" className="about">
                 <div className="container" data-aos="fade-up">                     
