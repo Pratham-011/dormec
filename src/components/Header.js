@@ -1,5 +1,5 @@
 import React from 'react'
-import './header.css';
+// import './header.css';
 
 function Header() {
   return (
@@ -10,7 +10,7 @@ function Header() {
             <div className="container d-flex align-items-center justify-content-between">
                 <h1 className="logo">
                     <a href="index.html">
-                        <img src="../assets/img/logo.png"/>
+                        <img src="assets/img/logo.png"/>
                     </a>
                 </h1>  
                 <nav id="navbar" className="navbar">
@@ -26,45 +26,7 @@ function Header() {
                 </nav>
             </div>
             </header>        
-    <style>{`
-#header .logo img {
-    max-height: 65px;
-}
-.p-space {
-    margin: 0px 10px!important;
-    text-align: justify!important;
-}
-.d-font-family {
-    font-family: "Roboto", sans-serif, serif!important;
-}
-.mb-5 {
-    margin-bottom: 8px!important;
-} 
- #hero {
-    height: 85vh!important;
-}
-@media only screen and (max-width: 600px) {
-    #hero {
-        height: 42vh!important;
-    }
-    .carousel-item {
-        background-size: 460px 360px!important;
-    }
-    #hero h2 {
-        font-size: 17px;
-        text-align: left;
-    }
-    h2.animate__animated.animate__fadeInDown.d-font-family {
-        margin-top: 40px!important;
-    }
-    a.carousel-control-prev, a.carousel-control-next {
-        margin-top: 60px!important;
-    }
-    .navbar {
-        position: fixed!important;
-    }
-} 
-`}</style>
+   
     </div>
   )
 }
